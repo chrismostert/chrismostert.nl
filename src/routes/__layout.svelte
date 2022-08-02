@@ -15,17 +15,20 @@
 		<a
 			href="https://www.linkedin.com/in/chrismostert/"
 			class="mr-3 hover:scale-110 hover:-translate-y-1 transition"
+			aria-label="Linkedin"
 			><Fa icon={faLinkedin} size="2x" />
 		</a>
 		<a
 			href="https://github.com/chrismostert"
 			class="mr-3 hover:scale-110 hover:-translate-y-1 transition"
+			aria-label="Github"
 		>
 			<Fa icon={faGithub} size="2x" />
 		</a>
 		<a
 			href="mailto:chrismostert0@gmail.com"
 			class="hover:scale-110 hover:-translate-y-1 transition"
+			aria-label="Email"
 		>
 			<Fa icon={faEnvelope} size="2x" />
 		</a>
