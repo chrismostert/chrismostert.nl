@@ -1,5 +1,5 @@
 <h1 class="text-6xl mb-4">Over <strong class="text-accent">mij</strong></h1>
-<div class="flex flex-wrap-reverse justify-center items-end gap-x-8 gap-y-4">
+<div class="flex flex-wrap-reverse items-end gap-x-8 gap-y-4">
 	<div>
 		<p class="max-w-prose text-xl">
 			Met mijn technische achtergrond heb ik skills in zowel Software Engineering als Data Science /
@@ -13,5 +13,5 @@
 			<a href="/CV.pdf">CV</a>
 		</button>
 	</div>
-	<img src="images/portrait.jpg" alt="Portrait of Chris Mostert" class="w-32 rounded-lg" />
+	<img src="images/portrait.jpg" alt="Portrait of Chris Mostert" class="w-32 rounded-lg mx-auto" />
 </div>
