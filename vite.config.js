@@ -8,9 +8,9 @@ const config = {
 	// see https://github.com/josdejong/svelte-jsoneditor/issues/107
 	ssr: {
 		noExternal: [
-		  "@fortawesome/*"
+			"@fortawesome/*"
 		]
-	  }
+	}
 };
 
 export default config;
