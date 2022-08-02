@@ -6,8 +6,8 @@
 </script>
 
 <div class="max-w-6xl mx-auto px-4">
-	<div class="flex h-screen md:items-center">
-		<div class="mt-4 md:mt-0">
+	<div class="flex h-screen items-center">
+		<div>
 			<slot />
 		</div>
 	</div>
