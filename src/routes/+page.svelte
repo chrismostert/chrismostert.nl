@@ -1,8 +1,3 @@
-<script context="module">
-	export const prerender = true;
-	export const hydrate = false;
-</script>
-
 <svelte:head>
 	<title>Chris Mostert | Software Engineer. Data Scientist.</title>
 	<meta
