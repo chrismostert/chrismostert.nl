@@ -7,9 +7,7 @@ const config = {
 	// Temporary vite workaround for fortawesome icons
 	// see https://github.com/josdejong/svelte-jsoneditor/issues/107
 	ssr: {
-		noExternal: [
-			"@fortawesome/*"
-		]
+		noExternal: ['@fortawesome/*']
 	}
 };
 
