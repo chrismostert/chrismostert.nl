@@ -1,3 +1,7 @@
+<script>
+	import AccentedButton from '$lib/components/AccentedButton.svelte';
+</script>
+
 <svelte:head>
 	<title>Chris Mostert | Over mij</title>
 	<meta
@@ -19,13 +23,7 @@ Met mijn behulpzame houding werk ik graag met enthousiaste collega's van explora
 			complexe problemen op te lossen én de oplossing te implementeren door hoogwaardige software te
 			schrijven.
 		</p>
-		<a href="/CV.pdf">
-			<button
-				class="mt-8 border-2 pb-2 pt-1 px-4 font-semibold text-2xl text-accent border-accent hover:text-white hover:bg-accent transition"
-			>
-				CV
-			</button>
-		</a>
+		<AccentedButton href="/CV.pdf" text="CV" />
 	</div>
 	<img src="images/portrait.jpg" alt="Portretfoto" class="w-32 rounded-lg mx-auto" />
 </div>
