@@ -15,4 +15,7 @@
 	<h2 class="text-4xl animate-fadein">Software Engineer.</h2>
 	<h2 class="text-4xl animate-[fadein_1s_0.8s_backwards]">Data Scientist.</h2>
 </div>
-<AccentedButton href="/about" text="Over mij" />
+
+<div class="mt-8">
+	<AccentedButton href="/projects" text="Mijn projecten" />
+</div>
