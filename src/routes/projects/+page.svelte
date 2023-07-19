@@ -10,10 +10,9 @@
 	};
 </script>
 
-<div class="flex flex-col items-center">
-	<ProjectCard data={example_data} />
-	<ProjectCard data={example_data} />
-	<ProjectCard data={example_data} />
-	<ProjectCard data={example_data} />
-	<ProjectCard data={example_data} />
+<div class="flex flex-wrap">
+<ProjectCard data={example_data} />
+<ProjectCard data={example_data} />
+<ProjectCard data={example_data} />
+<ProjectCard data={example_data} />
 </div>
