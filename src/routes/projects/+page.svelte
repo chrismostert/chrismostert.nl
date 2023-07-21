@@ -10,7 +10,7 @@
 	};
 </script>
 
-<div class="flex flex-col items-center gap-y-2">
+<div class="flex flex-col items-center gap-y-4 my-6">
 	<ProjectCard data={example_data} />
 	<ProjectCard data={example_data} />
 	<ProjectCard data={example_data} />

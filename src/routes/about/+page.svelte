@@ -14,16 +14,20 @@ Met mijn behulpzame houding werk ik graag met enthousiaste collega's van explora
 	/>
 </svelte:head>
 
-<h1 class="text-6xl mb-4">Over <strong class="text-accent">mij</strong></h1>
-<div class="flex flex-wrap-reverse items-end gap-x-8 gap-y-4">
-	<div>
-		<p class="max-w-prose text-xl">
-			Met mijn technische achtergrond heb ik skills in zowel Software Engineering als Data Science /
-			Machine Learning, en een passie voor beide. Het liefst combineer ik deze twee skillsets om
-			complexe problemen op te lossen én de oplossing te implementeren door hoogwaardige software te
-			schrijven.
-		</p>
-		<AccentedButton href="/CV.pdf" text="CV" />
+<div class="my-4">
+	<h1 class="text-6xl mb-4">Over <strong class="text-accent">mij</strong></h1>
+	<div class="flex flex-wrap-reverse items-end gap-x-8 gap-y-4">
+		<div>
+			<p class="max-w-prose text-xl">
+				Met mijn technische achtergrond heb ik skills in zowel Software Engineering als Data Science
+				/ Machine Learning, en een passie voor beide. Het liefst combineer ik deze twee skillsets om
+				complexe problemen op te lossen én de oplossing te implementeren door hoogwaardige software
+				te schrijven.
+			</p>
+			<div class="mt-4">
+				<AccentedButton href="/CV.pdf" text="CV" />
+			</div>
+		</div>
+		<img src="images/portrait.jpg" alt="Portretfoto" class="w-32 rounded-lg" />
 	</div>
-	<img src="images/portrait.jpg" alt="Portretfoto" class="w-32 rounded-lg mx-auto" />
 </div>
