@@ -2,7 +2,7 @@ import { json } from '@sveltejs/kit';
 
 async function get_projects() {
 	let projects = [];
-	const paths = import.meta.glob('/src/projects/*.md', { eager: true });
+	const paths = import.meta.glob('/src/lib/projects/*.md', { eager: true });
 
 	for (const path in paths) {
 		const file = paths[path];
