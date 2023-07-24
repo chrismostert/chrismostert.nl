@@ -16,7 +16,7 @@ export async function load({ fetch }) {
 
 		// Set resolved image path, as processed by svelte-img
 		projects[project].img =
-			images[`../../lib/images/projects/${projects[project].img}.jpg`].default;
+			images[`../../lib/images/projects/${projects[project].slug}.jpg`]?.default;
 	}
 
 	return { projects };

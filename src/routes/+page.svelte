@@ -17,5 +17,5 @@
 </div>
 
 <div class="mt-8">
-	<AccentedButton href="/projects" text="Mijn projecten" />
+	<AccentedButton href="/projects">Mijn projecten</AccentedButton>
 </div>

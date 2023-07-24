@@ -27,7 +27,7 @@ Met mijn behulpzame houding werk ik graag met enthousiaste collega's van explora
 				te schrijven.
 			</p>
 			<div class="mt-4">
-				<AccentedButton href="/CV.pdf" text="CV" />
+				<AccentedButton href="/CV.pdf">CV</AccentedButton>
 			</div>
 		</div>
 		<Img src={portrait} alt="Portretfoto" class="rounded-lg w-32 h-32" />
