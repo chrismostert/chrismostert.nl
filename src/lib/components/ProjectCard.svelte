@@ -17,6 +17,8 @@
 				{/each}
 			</div>
 		</div>
-		<p>{data.description}</p>
+		<p>
+			<svelte:component this={data.description} />
+		</p>
 	</div>
 </div>
