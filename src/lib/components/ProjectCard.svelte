@@ -7,9 +7,11 @@
 	<div class="p-8">
 		<div class="flex flex-col">
 			<h2 class="text-2xl font-medium">{data.title}</h2>
-			<div class="flex flex-wrap gap-x-2 mb-2">
+			<div class="flex flex-wrap gap-x-2 mb-2 mt-2">
 				{#each data.tags as tag}
-					<div>
+					<div
+						class="transition-colors text-accent font-semibold border-2 px-2 border-accent hover:bg-accent hover:text-white cursor-pointer"
+					>
 						{tag}
 					</div>
 				{/each}
