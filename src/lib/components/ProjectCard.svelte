@@ -1,9 +1,10 @@
 <script>
 	export let data;
+	import {FxReveal as Img } from '@zerodevx/svelte-img'
 </script>
 
 <div class="shadow-md rounded-lg overflow-clip max-w-2xl">
-	<img src={data.img} alt={`Cover image for ${data.title}`} class="w-full h-52 object-cover" />
+	<Img src={data.img} alt={`Cover image for ${data.title}`} class="w-full h-52 object-cover" />
 	<div class="p-8">
 		<div class="flex flex-col">
 			<h2 class="text-2xl font-medium">{data.title}</h2>

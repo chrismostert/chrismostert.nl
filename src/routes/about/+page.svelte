@@ -1,6 +1,7 @@
 <script>
 	import AccentedButton from '$lib/components/AccentedButton.svelte';
-	import portrait from '$lib/images/portrait.jpg';
+	import portrait from '$lib/images/portrait.jpg?run';
+	import Img from '@zerodevx/svelte-img';
 </script>
 
 <svelte:head>
@@ -29,6 +30,6 @@ Met mijn behulpzame houding werk ik graag met enthousiaste collega's van explora
 				<AccentedButton href="/CV.pdf" text="CV" />
 			</div>
 		</div>
-		<img src={portrait} alt="Portretfoto" class="w-32 rounded-lg" />
+		<Img src={portrait} alt="Portretfoto" class="rounded-lg w-32 h-32" />
 	</div>
 </div>
