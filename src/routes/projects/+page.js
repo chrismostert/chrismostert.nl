@@ -8,8 +8,8 @@ export async function load({ fetch }) {
 		let description = await import(`../../projects/${projects[project].slug}.md`);
 		projects[project].description = description.default;
 
-		let img_path = `../../lib/images/projects/${projects[project].img}`;
-		projects[project].img = new URL(img_path, import.meta.url);
+		let img_path = await import(`../../lib/images/projects/${projects[project].img}.jpg`);
+		projects[project].img = img_path.default;
 	}
 
 	return { projects };
