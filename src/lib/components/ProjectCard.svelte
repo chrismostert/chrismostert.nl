@@ -22,7 +22,9 @@
 			</div>
 		</div>
 
-		<svelte:component this={data.description} />
+		<div class="project-description">
+			<svelte:component this={data.description} />
+		</div>
 
 		<div class="mt-6 flex flex-wrap gap-x-2 gap-y-2">
 			{#if data.link}
