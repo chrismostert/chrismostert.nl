@@ -3,6 +3,10 @@
 	import SocialIcons from '$lib/components/SocialIcons.svelte';
 </script>
 
+<svelte:head>
+	<meta name="theme-color" content="#db5945" />
+</svelte:head>
+
 <div class="h-[100dvh] flex flex-col">
 	<header class="shadow-md bg-accent">
 		<div class="max-w-6xl mx-auto px-4">

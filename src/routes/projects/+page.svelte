@@ -3,6 +3,10 @@
 	export let data;
 </script>
 
+<svelte:head>
+	<title>Chris Mostert | Projecten</title>
+</svelte:head>
+
 <div class="flex flex-col items-center gap-y-4 my-6">
 	{#each data.projects as project}
 		<ProjectCard data={project} />
