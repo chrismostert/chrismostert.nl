@@ -16,9 +16,8 @@ export async function load() {
 		const project = { ...projects[path]?.metadata };
 		const slug = path.split('/').at(-1)?.replace('.md', '');
 
-		// Use dynamic vite import + mdsvex preprocess to return svelte renderable component
-		let description = await import(`../../lib/projects/${slug}.md`);
-		project.description = description?.default;
+		// Set content
+		project.description = projects[path]?.default;
 
 		// Set resolved image path, as processed by svelte-img
 		project.img = images[`../../lib/images/projects/${slug}.jpg`]?.default;

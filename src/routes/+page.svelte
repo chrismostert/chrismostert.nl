@@ -6,7 +6,7 @@
 	<title>Chris Mostert | Software Engineer. Data Scientist.</title>
 	<meta
 		name="description"
-		content="Met mijn technische achtergrond heb ik skills in zowel Software Engineering als Data Science / Machine Learning, en een passie voor beide. Het liefst combineer ik deze twee skillsets om complexe problemen op te lossen én de oplossing te implementeren door hoogwaardige software te schrijven."
+		content="Met mijn technische achtergrond heb ik skills in zowel Software Engineering als Data Science / Machine Learning, en een passie voor beide."
 	/>
 </svelte:head>
 

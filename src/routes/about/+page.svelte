@@ -8,11 +8,7 @@
 	<title>Chris Mostert | Over mij</title>
 	<meta
 		name="description"
-		content="Met mijn technische achtergrond heb ik skills in zowel Software Engineering als Data Science / Machine Learning, en een passie voor beide. 
-	Het liefst combineer ik deze twee skillsets om complexe problemen op te lossen én de oplossing te implementeren door hoogwaardige software te schrijven.
-
-	Gedreven, leergierig en met oog voor detail, dat is hoe ik te werk ga. Ik bijt me graag vast in een project met een passie voor het bedenken van creatieve oplossingen van boeiende problemen.
-Met mijn behulpzame houding werk ik graag met enthousiaste collega's van exploratieve data-analyse tot implementatie naar een resultaat van hoge kwaliteit."
+		content="Gedreven, leergierig en met oog voor detail, dat is hoe ik te werk ga. Ik bijt me graag vast in een project met een passie voor het bedenken van creatieve oplossingen van boeiende problemen. Met mijn behulpzame houding werk ik graag met enthousiaste collega's van exploratieve data-analyse tot implementatie naar een resultaat van hoge kwaliteit."
 	/>
 </svelte:head>
 
