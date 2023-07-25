@@ -4,7 +4,8 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				accent: '#02aab0'
+				accent: '#02aab0',
+				accentlight: '#02b3ba'
 			},
 			keyframes: {
 				fadein: {

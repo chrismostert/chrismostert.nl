@@ -4,12 +4,24 @@
 </script>
 
 <div class="h-[100dvh] flex flex-col">
-	<header class="py-4 shadow-md">
+	<header class="shadow-md bg-accent">
 		<div class="max-w-6xl mx-auto px-4">
-			<nav class="flex gap-x-8 flex-wrap">
-				<a href="/" class="text-xl transition-all hover:underline   bg-white rounded-b-lg">Home</a>
-				<a href="/projects" class="text-xl hover:underline  bg-white  rounded-b-lg">Projecten</a>
-				<a href="/about" class="text-xl hover:underline  bg-white  rounded-b-lg">Over mij</a>
+			<nav class="flex flex-wrap">
+				<a
+					href="/"
+					class="text-xl transition-colors text-white font-semibold p-4 hover:bg-accentlight"
+					>Home</a
+				>
+				<a
+					href="/projects"
+					class="text-xl transition-colors text-white font-semibold p-4 hover:bg-accentlight"
+					>Projecten</a
+				>
+				<a
+					href="/about"
+					class="text-xl transition-colors text-white font-semibold p-4 hover:bg-accentlight"
+					>Over mij</a
+				>
 			</nav>
 		</div>
 	</header>
