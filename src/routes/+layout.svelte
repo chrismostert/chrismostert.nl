@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<meta name="theme-color" content="#db5945" />
+	<meta name="theme-color" content="#02aab0" />
 </svelte:head>
 
 <div class="h-[100dvh] flex flex-col">
