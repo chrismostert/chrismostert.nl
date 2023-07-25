@@ -23,8 +23,10 @@ export async function load() {
 		// Set resolved image path, as processed by svelte-img
 		project.img = images[`../../lib/images/projects/${slug}.jpg`]?.default;
 
-		// Set the processed project for rendering
-		projects[path] = project;
+		// Set the processed project for rendering (title is mandatory)
+		if (projects[path]?.metadata?.title) {
+			projects[path] = project;
+		}
 	}
 
 	return { projects: Object.values(projects) };

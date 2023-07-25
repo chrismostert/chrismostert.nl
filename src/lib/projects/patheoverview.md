@@ -1,5 +1,5 @@
 ---
-title: Pathé movie overview
+title: Pathé overview
 tags:
   - SvelteJS
   - Web scraping
