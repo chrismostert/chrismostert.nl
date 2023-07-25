@@ -10,7 +10,7 @@
 <div class="h-[100dvh] flex flex-col">
 	<header class="shadow-md bg-accent">
 		<div class="max-w-6xl mx-auto px-4">
-			<nav class="flex flex-wrap">
+			<nav class="flex flex-wrap" data-sveltekit-preload-data="hover">
 				<a
 					href="/"
 					class="text-xl transition-colors text-white font-semibold p-4 hover:bg-accentlight"
