@@ -1,5 +1,6 @@
 ---
 title: Mapview NL
+date: 202211
 tags:
   - SvelteJS
   - Visualisation

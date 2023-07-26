@@ -1,5 +1,6 @@
 ---
 title: Advent of Code
+date: 202112
 tags:
   - Rust
   - Puzzles

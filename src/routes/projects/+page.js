@@ -12,6 +12,7 @@ export async function load() {
 		query: { run: 'yes' }
 	});
 
+	// Process every project .md file for rendering
 	for (let path in projects) {
 		const project = { ...projects[path]?.metadata };
 		const slug = path.split('/').at(-1)?.replace('.md', '');
@@ -28,5 +29,10 @@ export async function load() {
 		}
 	}
 
-	return { projects: Object.values(projects) };
+	// Return the sorted list of values by date, descending
+	return {
+		projects: [...Object.values(projects)].sort((a, b) => {
+			return b.date - a.date;
+		})
+	};
 }
