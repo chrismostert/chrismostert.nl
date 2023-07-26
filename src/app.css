@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+	overflow-x: hidden;
+	margin-right: calc(-1 * (100vw - 100%));
+}
+
+.project-description a {
+	@apply text-cyan-700;
+	@apply hover:text-cyan-900;
+	@apply underline;
+}

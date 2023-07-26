@@ -1,14 +1,9 @@
 import { sveltekit } from '@sveltejs/kit/vite';
+import { imagetools } from '@zerodevx/svelte-img/vite';
 
 /** @type {import('vite').UserConfig} */
 const config = {
-	plugins: [sveltekit()],
-
-	// Temporary vite workaround for fortawesome icons
-	// see https://github.com/josdejong/svelte-jsoneditor/issues/107
-	ssr: {
-		noExternal: ['@fortawesome/*']
-	}
+	plugins: [sveltekit(), imagetools()]
 };
 
 export default config;
