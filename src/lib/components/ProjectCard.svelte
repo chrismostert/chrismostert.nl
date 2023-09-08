@@ -18,7 +18,7 @@
 				<div class="flex flex-wrap gap-x-2 gap-y-2 mt-2">
 					{#each data.tags as tag}
 						<div
-							class="transition-colors text-xs text-accent font-semibold border-2 px-2 border-accent hover:bg-accent hover:text-white cursor-pointer"
+							class="transition-colors text-xs text-accent font-semibold border-2 px-2 border-accent"
 						>
 							{tag}
 						</div>
