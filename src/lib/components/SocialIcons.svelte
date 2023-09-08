@@ -21,7 +21,7 @@
 		<Fa icon={faGithub} size="2x" />
 	</a>
 	<a
-		href="mailto:chrismostert0@gmail.com"
+		href="mailto:mail@chrismostert.nl"
 		class="hover:scale-110 hover:-translate-y-1 transition"
 		aria-label="Email"
 		rel="external"
